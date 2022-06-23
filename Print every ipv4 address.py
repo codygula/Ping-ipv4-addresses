@@ -1,4 +1,5 @@
-# Ping every ipv4 address
+# This is a script I am making to ping every ipv4 address. So far, it will start at 0.0.0.0 and ping every IP address and print to the console.
+# TODO: make it fill in a Hilbert Curve to create a map of the entire IPV4 internet.
 
 import subprocess
 
