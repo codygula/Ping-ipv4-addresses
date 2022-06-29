@@ -1,0 +1,361 @@
+ping 0.0.0.0ping 0.0.0.1ping 0.0.0.2ping 0.0.0.3ping 0.0.0.0/nping 0.0.0.1/nping 0.0.0.2/nping 0.0.0.0Is this working?/nping 0.0.0.1Is this working?/nping 0.0.0.2Is this working?/nping 0.0.0.3Is this working?/nIs this working?/nping 0.0.0.0Is this working?/nping 0.0.0.1Is this working?/nIs this working?
+ping 0.0.0.0Is this working?
+ping 0.0.0.1Is this working?
+ping 0.0.0.2Is this working?
+ping 0.0.0.3Is this working?
+ping 0.0.0.4Is this working?
+ping 0.0.0.5Is this working?
+ping 0.0.0.6Is this working?
+ping 0.0.0.7Is this working?
+Is this working?
+ping 0.0.0.0Is this working?
+Is this working?
+Is this working?
+ping 0.0.0.0 
+ping 0.0.0.1 
+ping 0.0.0.2 
+Is this working?
+Is this working?
+Is this working?
+ping 0.0.0.0 PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.048 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.048/0.048/0.048/0.000 ms
+
+ping 0.0.0.1 PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+ping 0.0.0.2 PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+ping 0.0.0.3 PING 0.0.0.3 (0.0.0.3) 56(84) bytes of data.
+
+--- 0.0.0.3 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+ping 0.0.0.4 PING 0.0.0.4 (0.0.0.4) 56(84) bytes of data.
+
+--- 0.0.0.4 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+ping 0.0.0.5 PING 0.0.0.5 (0.0.0.5) 56(84) bytes of data.
+
+--- 0.0.0.5 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+Is this working?
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.048 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.048/0.048/0.048/0.000 ms
+
+PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+PING 0.0.0.3 (0.0.0.3) 56(84) bytes of data.
+
+--- 0.0.0.3 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+PING 0.0.0.4 (0.0.0.4) 56(84) bytes of data.
+
+--- 0.0.0.4 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+PING 0.0.0.5 (0.0.0.5) 56(84) bytes of data.
+
+--- 0.0.0.5 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+Is this working?
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.047 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.047/0.047/0.047/0.000 ms
+PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 0.0.0.3 (0.0.0.3) 56(84) bytes of data.
+
+--- 0.0.0.3 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+Is this working?
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.055 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.055/0.055/0.055/0.000 ms
+------------------------------
+PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+------------------------------
+PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+------------------------------
+Is this working?
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.039 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.039/0.039/0.039/0.000 ms
+########################################
+PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################
+PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################
+Is this working?
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.041 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.041/0.041/0.041/0.000 ms
+########################################PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################PING 0.0.0.3 (0.0.0.3) 56(84) bytes of data.
+
+--- 0.0.0.3 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################PING 0.0.0.4 (0.0.0.4) 56(84) bytes of data.
+
+--- 0.0.0.4 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################PING 0.0.0.5 (0.0.0.5) 56(84) bytes of data.
+
+--- 0.0.0.5 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################PING 0.0.0.6 (0.0.0.6) 56(84) bytes of data.
+
+--- 0.0.0.6 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+########################################Is this working?
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.049 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.049/0.049/0.049/0.000 ms
+######################################## PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 0.0.0.2 (0.0.0.2) 56(84) bytes of data.
+
+--- 0.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## Is this working?
+Is this working?
+PING 185.0.0.0 (185.0.0.0) 56(84) bytes of data.
+
+--- 185.0.0.0 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.1 (185.0.0.1) 56(84) bytes of data.
+
+--- 185.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.2 (185.0.0.2) 56(84) bytes of data.
+
+--- 185.0.0.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.3 (185.0.0.3) 56(84) bytes of data.
+
+--- 185.0.0.3 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.4 (185.0.0.4) 56(84) bytes of data.
+
+--- 185.0.0.4 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.5 (185.0.0.5) 56(84) bytes of data.
+
+--- 185.0.0.5 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.6 (185.0.0.6) 56(84) bytes of data.
+
+--- 185.0.0.6 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.7 (185.0.0.7) 56(84) bytes of data.
+
+--- 185.0.0.7 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.8 (185.0.0.8) 56(84) bytes of data.
+
+--- 185.0.0.8 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 185.0.0.9 (185.0.0.9) 56(84) bytes of data.
+
+--- 185.0.0.9 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## Is this working?
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=57 time=4.65 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.650/4.650/4.650/0.000 ms
+######################################## PING 8.8.8.9 (8.8.8.9) 56(84) bytes of data.
+
+--- 8.8.8.9 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 8.8.8.10 (8.8.8.10) 56(84) bytes of data.
+
+--- 8.8.8.10 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 8.8.8.11 (8.8.8.11) 56(84) bytes of data.
+
+--- 8.8.8.11 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 8.8.8.12 (8.8.8.12) 56(84) bytes of data.
+
+--- 8.8.8.12 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 8.8.8.13 (8.8.8.13) 56(84) bytes of data.
+
+--- 8.8.8.13 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## Is this working?
+Is this working?
+######################################## PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=57 time=2.92 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.922/2.922/2.922/0.000 ms
+######################################## PING 8.8.8.9 (8.8.8.9) 56(84) bytes of data.
+
+--- 8.8.8.9 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######################################## PING 8.8.8.10 (8.8.8.10) 56(84) bytes of data.
+
+--- 8.8.8.10 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+Pinging IP addresses in range 0.0.0.0 to 255.255.255.255Started at 1656534547.07113
+######################################## PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.041 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.041/0.041/0.041/0.000 ms
+######################################## PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+##### ##### ##### ##### ##### ##### ##### ##### ##### 
+Pinging IP addresses in range 0.0.0.0 to 255.255.255.255
+Started at 1656534646.883695
+
+######################################## PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.052 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.052/0.052/0.052/0.000 ms
+######################################## PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+######  ### #     #  #####  
+#     #  #  ##    # #     # 
+#     #  #  # #   # #       
+######   #  #  #  # #  #### 
+#        #  #   # # #     # 
+#        #  #    ## #     # 
+#       ### #     #  #####  
+ 
+Pinging IP addresses in range 0.0.0.0 to 255.255.255.255
+Started at 1656535224.6004763
+
+######################################## PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.041 ms
+
+--- 0.0.0.0 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.041/0.041/0.041/0.000 ms
+######################################## PING 0.0.0.1 (0.0.0.1) 56(84) bytes of data.
+
+--- 0.0.0.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
