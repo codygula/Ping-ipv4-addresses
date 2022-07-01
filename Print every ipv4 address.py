@@ -1,7 +1,7 @@
 # 
 #
-# TODO fix the ending range. It will not stop at the inputed end point becasue it is always less than 
-# or equal to 255. Right now it can start pinging from any IPV4 address and keep going upward. 
+# TODO Make it work for any IP range. It currently seems to work for ranges that make sense, 10.0.0.1 - 10.0.0.10 etc.,
+# but not for ranges like 5.6.7.8 - 6.7.8.9. The nexted while loops need to be replaced.
 # TODO make it fill in a Hilbert Curve to create a map of the entire IPV4 internet.
 
 import subprocess
@@ -41,9 +41,17 @@ def splitStartingIP():
     address3 = int(iparray[1])
     address2 = int(iparray[2])
     address1 = int(iparray[3])
+    if address4 > 255 or address4 < 0:
+        print("error")
+    if address3 > 255 or address4 < 0:
+        print("error")
+    if address2 > 255 or address4 < 0:
+        print("error")
+    if address1 > 255 or address4 < 0:
+        print("error")
     return address1, address2, address3, address4, ip
 
-# This takes input, but does not work.
+
 def splitEndingIP():
     print("Ending IP: ")
     endip = input()
@@ -52,6 +60,14 @@ def splitEndingIP():
     endaddress3 = int(endiparray[1])
     endaddress2 = int(endiparray[2])
     endaddress1 = int(endiparray[3])
+    if address4 > 255 or address4 < 0:
+        print("error")
+    if address3 > 255 or address4 < 0:
+        print("error")
+    if address2 > 255 or address4 < 0:
+        print("error")
+    if address1 > 255 or address4 < 0:
+        print("error")
     return endaddress1, endaddress2, endaddress3, endaddress4, endip
 
 
@@ -61,12 +77,11 @@ preamble(ip, endip)
 
 finalAddress = []
 
-# This does not work. It will never stop at the desired end point because 255 will always be equal or higher.
-# This whole thing may need to be refactored. It will start at any desired address, it just won't stop at one.
-while address4 <= max(endaddress4, 255):
-    while address3 <= max(endaddress3, 255):
-        while address2 <= max(endaddress2, 255):
-            while address1 <= max(endaddress1, 255):
+# This still does not work correctly.
+while address4 <= endaddress4:
+    while address3 <= endaddress3:
+        while address2 <= endaddress2:
+            while address1 <= endaddress1:
                 finalAddress = str(address4) + "." + str(address3) + "." + str(address2) + "." + str(address1)
                 print("now pinging " + finalAddress)
                 z = ping(finalAddress)
